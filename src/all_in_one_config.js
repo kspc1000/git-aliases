@@ -1,14 +1,10 @@
-const fs = require('fs')
+const fs = require('fs') // node
 
 let text;
 try {
-    text = fs.readFileSync('../aliases_config.md', 'utf8');
-
-    text = text.replace(/http\S+/g, ""); // remove all http links
-    text = text.trim();
-    text = text.split("<br>");
-    text = text.map(str => str.replace(/\r\n/g, "")); // remove all unwanted characters
-    text = text.filter(str => str); // remove any empty elements
+    text = fs.readFileSync('./config_commands.txt', 'utf8');
+    text = text.split("\n");
+    text = text.map(str => str.replace(/\r/g, ""));
     
     console.log(text.join(" && ")); //* prints out copyable all in one command for configuration/initialization of aliases
 } catch (err) {
