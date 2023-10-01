@@ -1,6 +1,7 @@
 # Git Aliases
 A repository to note down the git aliases I use, and to expedite their configuration.
 
+## List
 - `alias.ac` **!git add -A && git commit -m** (Usage: `git ac "commit message"`)<br />
 - `alias.ch` **checkout** (Usage: `git ch branch-name`)<br />
 - `alias.br` **branch** (Usage: `git br`)<br />
@@ -11,6 +12,6 @@ A repository to note down the git aliases I use, and to expedite their configura
 
 \**om: origin master*
 
-Source:
+## Source
 
 [<img src="https://img.youtube.com/vi/ecK3EnyGD8o/0.jpg" alt="thumbnail" />](https://www.youtube.com/watch?v=ecK3EnyGD8o&t=80s)
