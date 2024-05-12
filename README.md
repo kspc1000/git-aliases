@@ -16,7 +16,9 @@ A repository to note down the git aliases I use, and to expedite their configura
 \**om: origin master*
 
 All in one command copy-paste: <br>
-```git config --global alias.alias "config --get-regexp alias" && git config --global alias.ac "!git add -A && git commit -m" && git config --global alias.ch "checkout" && git config --global alias.br "branch" && git config --global alias.brv "branch -v" && git config --global alias.ra "remote add" && git config --global alias.rao "remote add origin" && git config --global alias.track "push -u" && git config --global alias.tracko "push -u origin" && git config --global alias.trackom "push -u origin master"```
+```bash
+git config --global alias.alias "config --get-regexp alias" && git config --global alias.ac "!git add -A && git commit -m" && git config --global alias.ch "checkout" && git config --global alias.br "branch" && git config --global alias.brv "branch -v" && git config --global alias.ra "remote add" && git config --global alias.rao "remote add origin" && git config --global alias.track "push -u" && git config --global alias.tracko "push -u origin" && git config --global alias.trackom "push -u origin master"
+```
 
 ## Source
 
